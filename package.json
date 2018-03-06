@@ -1,0 +1,32 @@
+{
+  "name": "my",
+  "version": "1.0.0",
+  "description": "自己的项目",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.base.conf.js",
+    "test": "npm run test"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "element-ui": "^2.2.1",
+    "vue": "^2.5.13",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twmay006/my.git"
+  },
+  "keywords": [
+    "self"
+  ],
+  "author": "twmay006",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twmay006/my/issues"
+  },
+  "homepage": "https://github.com/twmay006/my#readme"
+}

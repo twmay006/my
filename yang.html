@@ -6,6 +6,7 @@
     <title>Carson</title>
     <script>
       function callAndroid(){
+        document.getElementById("aaa").innerHTML = "点击了"
         test.shareClicked('www.baidu.com', "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1557912705852&di=a2b23115e7d608267261ee82b5c0006e&imgtype=0&src=http%3A%2F%2Fpic38.nipic.com%2F20140212%2F17942401_101320663138_2.jpg","desc","title")
       }
     </script>
@@ -13,5 +14,6 @@
    <body>
     <!-- 点击按钮则调用callAndroid函数 -->
     <button type="button" id="button1" onclick="callAndroid()">点击我</button>
+     <div id="aaa"></div>
    </body>
 </html>
